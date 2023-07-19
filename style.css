@@ -1,0 +1,46 @@
+body,html{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bgImg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1514782831304-632d84503f6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dG8lMjBkbyUyMGxpc3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    filter:blur(5px);
+}
+h1{
+    text-align: center;
+    color: black ;
+}
+.task{
+    width: 60%;
+    margin: auto;
+}
+.taskList{
+    list-style: none;
+    width: 60%;
+    margin: auto;
+}
+li{
+    border: 1px solid black;
+    padding:5px;
+    box-shadow: 1px 1px 5px black;
+    margin:10px auto;
+}
+
+#newtask{
+    width: 70%;
+}
+
+#addtask{
+    background-color: rgb(8, 136, 158);
+    border: 2px solid black;
+}
+li:first-child button.upbtn,
+li:last-child button.dwnbtn{
+    visibility: hidden;
+}
