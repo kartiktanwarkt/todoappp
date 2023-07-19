@@ -14,7 +14,11 @@ body,html{
 }
 h1{
     text-align: center;
-    color: black ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding: 8px;
+    background-color: rgb(21, 37, 51);
+    color: white;
 }
 .task{
     width: 60%;
@@ -24,21 +28,27 @@ h1{
     list-style: none;
     width: 60%;
     margin: auto;
+    background-color: antiquewhite;
 }
 li{
     border: 1px solid black;
-    padding:5px;
+    padding:10px;
     box-shadow: 1px 1px 5px black;
-    margin:10px auto;
+    margin:20px auto;
 }
 
 #newtask{
-    width: 70%;
+    box-sizing: border-box;
+    width : 85%;
+    font-size: 20px;
+    outline-style: none;
+    padding: 5px;
 }
 
 #addtask{
     background-color: rgb(8, 136, 158);
     border: 2px solid black;
+    font-size: 25px;
 }
 li:first-child button.upbtn,
 li:last-child button.dwnbtn{
